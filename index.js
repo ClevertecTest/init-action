@@ -32,18 +32,18 @@ const main = async () => {
         });
 
         await octokit.rest.repos.updateBranchProtection({
-            owner,
-            repo,
+            owner: 'ClevertecTest',
+            repo: 'sprint-1-Rastamanby',
             branch: 'main',
-            // required_status_checks,
+            required_status_checks: null,
             // required_status_checks.strict,
             // required_status_checks.contexts,
             // required_status_checks.checks[].context,
-            // enforce_admins,
+            enforce_admins: true,
             required_pull_request_reviews: {
                 required_approving_review_count: 2
             },
-            // restrictions,
+            restrictions: null,
             // restrictions.users,
             // restrictions.teams
         })
