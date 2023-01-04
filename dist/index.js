@@ -9695,6 +9695,7 @@ const main = async () => {
          **/
         const owner = core.getInput('owner', { required: true });
         const repo = core.getInput('repo', { required: true });
+        const pr_number = core.getInput('pull_number', { required: true });
         const token = core.getInput('token', { required: true });
 
         /**
@@ -9707,10 +9708,13 @@ const main = async () => {
          **/
         const octokit = new github.getOctokit(token);
 
-        await octokit.rest.repos.addCollaborator({
+        octokit.rest.pulls.requestReviewers({
             owner,
             repo,
-            username: 'Gaurrus'
+            pull_number,
+            reviewers: [
+                'Gaurrus'
+            ]
         });
         /**
          * Create a comment on the PR with the information we compiled from the
