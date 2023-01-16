@@ -15,7 +15,15 @@ const main = async () => {
             repo,
             pull_number,
             reviewers: [
-                'Gaurrus'
+                'Gaurrus',
+                'dariavorom',
+                'Ivan6813',
+                'graffad',
+                'klichkovskiy',
+                'vvikota',
+                'vsachenko',
+                'SergeyGlazun',
+                'Java-zhara',
             ]
         });
 
