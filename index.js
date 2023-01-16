@@ -24,6 +24,7 @@ const main = async () => {
                 'vsachenko',
                 'SergeyGlazun',
                 'Java-zhara',
+                'Snoop593',
             ]
         });
 
