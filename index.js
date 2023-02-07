@@ -20,7 +20,7 @@ const main = async () => {
         'ValadzkoAliaksei',
         // 'dariavorom',
         'Ivan6813',
-        'graffad',
+        // 'graffad',
         // 'vvikota',
         // 'vsachenko',
         // 'Snoop593',
