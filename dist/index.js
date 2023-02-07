@@ -9702,17 +9702,16 @@ const main = async () => {
       pull_number,
       reviewers: [
         'Rastamanby',
-        'ValadzkoAliaksei',
         'Gaurrus',
+        'ValadzkoAliaksei',
         'dariavorom',
         'Ivan6813',
         'graffad',
-        'klichkovskiy',
         'vvikota',
         'vsachenko',
         'SergeyGlazun',
-        'Java-zhara',
         'Snoop593',
+        'Java-zhara',
       ],
     });
   } catch (error) {
