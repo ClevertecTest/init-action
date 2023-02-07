@@ -22,9 +22,9 @@ const main = async () => {
         'Ivan6813',
         'graffad',
         'vvikota',
-        'vsachenko',
-        'Snoop593',
-        'Java-zhara',
+        // 'vsachenko',
+        // 'Snoop593',
+        // 'Java-zhara',
       ],
     });
   } catch (error) {
