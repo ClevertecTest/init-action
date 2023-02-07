@@ -9709,7 +9709,6 @@ const main = async () => {
         'graffad',
         'vvikota',
         'vsachenko',
-        'SergeyGlazun',
         'Snoop593',
         'Java-zhara',
       ],
