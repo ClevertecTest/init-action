@@ -9702,9 +9702,9 @@ const main = async () => {
       pull_number,
       reviewers: [
         'Rastamanby',
-        'Gaurrus',
+        // 'Gaurrus',
         'ValadzkoAliaksei',
-        // 'dariavorom',
+        'dariavorom',
         'Ivan6813',
         // 'graffad',
         // 'vvikota',
